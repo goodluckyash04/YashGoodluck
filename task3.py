@@ -1,6 +1,6 @@
 x = int(input())
-a = 1
-while a==1:
+a = x
+while a==x:
     a+=1
     if (x == 0 or x == 1):
         print('x is exception')
