@@ -3,9 +3,9 @@
 x = int(input())
 if(x%10==0):
     if(x%4==0):
-        if (x % 8 == 0):
-            print("number is divisible by 2,4,8,5,10")
-        if(x%8==0):
+        if (x % 6 == 0):
+            print("number is divisible by 2,4,6,5,10")
+        elif(x% 8==0):
             print("number is divisible by 2,4,8,5,10")
         else:
             print('number is divisible by 2,4,5,10')
